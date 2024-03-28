@@ -2,13 +2,12 @@ import Link from "next/link";
 
 export default function SideBar({ docs }) {
   const roots = docs.filter((doc) => !docs.parent);
-  //   console.log("root", roots);
 
   const nonRoots = Object.groupBy(
     docs.filter((doc) => doc.parent),
     ({ parent }) => parent
   );
-  //   console.log(nonRoots);
+
   return (
     <nav className="lg:block my-10">
       <ul>
