@@ -11,7 +11,6 @@ export default function Landing() {
               <h1 className="mt-4 text-6xl font-extrabold leading-none tracking-tight text-slate-900 sm:text-5xl sm:leading-[3.5rem]">
                 Protocol
               </h1>
-
               <p className="mt-6 text-base leading-7 text-slate-700">
                 It doesnt matter if you have an API if nobody knows how to use
                 it. Teach people the ins and outs of OAuth 2.0 and JWTs in style
